@@ -1,4 +1,5 @@
 import os
+import datetime
 
 command = "df -h" #disk
 command = "uptime" # load avg
@@ -11,3 +12,9 @@ def check_cpu(command):    #defining a function
 
 check_cpu("df -h") #calling a funtion
 check_cpu("date")
+
+def show_date():
+    return datetime.datetime.today()
+
+today = show_date()
+print("Sumant toady date and time is : ", today)
