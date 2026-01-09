@@ -27,4 +27,4 @@ elif choice == "%":
     mod_of_num = num1 % num2
     print("Remainder : ", mod_of_num)
 else :
-    print("invalid choice")
+    print("invalid choice") 
